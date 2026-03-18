@@ -1,7 +1,16 @@
-/* vamos resetar antes de tudo */
+/* 1 vamos resetar antes de tudo */
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* 2. CONFIGURAÇÃO DO CORPO */
+body {
+    font-family: sans-serif; /* Simples e limpo */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
