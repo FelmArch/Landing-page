@@ -80,3 +80,13 @@ header, footer {
     font-size: 18px;
     color: #e5e7eb;
 }
+
+/* aqui o btn */
+
+.hero-btn {
+    background-color: #3882f6;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 32px;
+}
