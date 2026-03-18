@@ -184,3 +184,20 @@ header, footer {
     justify-content: space-between;
     align-items: center;
 }
+
+.cta-btn {
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgb(173, 45, 45);
+    padding: 8px 32px;
+    border-radius: 8px;
+}
+
+/* aqui e do footer */
+
+.footer-pai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
