@@ -43,3 +43,25 @@ header, footer {
     list-style: none;
     gap: 24px;
 }
+
+/* aqui sobre a brand */
+
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-menu a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* aqui sobre o hero */
+
+.hero-main {
+    display: flex;
+    gap: 48px;
+    padding: 80px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
