@@ -188,9 +188,10 @@ header, footer {
 .cta-btn {
     border: 2px solid white;
     background-color: transparent;
-    color: rgb(173, 45, 45);
+    color: #ffffff;
     padding: 8px 32px;
     border-radius: 8px;
+    font-weight: bold;
 }
 
 /* aqui e do footer */
