@@ -1,40 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FelmArch | Landing Page Proj</title>
-    <link rel="stylesheet" href="style.css">
+    <title>FelmArch Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <!-- 1. SEÇÃO HERO (Zona Escura) -->
-    <div class="hero">
+
+    <!-- HEADER: O 'Contentor de Cabeçalho'. O Bunker Superior da página. -->
+<header class="main-header">
+
+    <!-- NAV: O 'GPS' do site. Diz ao browser: "Isto são os links de navegação" -->
+    <nav class="navbar">
         
-        <!-- O Cabeçalho / Menu -->
-        <div class="header">
-            <div class="logo">FelmArch</div>
-            <ul>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Apoio</a></li>
-            </ul>
+        <!-- BRAND: Identidade do Site. O teu 'Call Sign' no mundo Dev. -->
+        <div class="brand">Junior-To-Senior</div>
+
+        <!-- NAV-MENU: A lista de links. Usamos uma Lista Não Ordenada (ul) -->
+        <!-- Porque um menu é, logicamente, uma 'lista de itens' agrupados. -->
+        <ul class="nav-menu">
+            <li><a href="#percurso">O Percurso</a></li>
+            <li><a href="#tecnologias">Tecnologias</a></li>
+            <li><a href="#metas">Metas 2026</a></li>
+            <li><a href="#contacto" class="nav-cta">Fale Comigo</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO-MAIN: O Coração do Bloco 1. Onde a mensagem encontra o utilizador. -->
+    <!-- Dividimos isto em dois blocos (Esquerda e Direita) para controlo total no CSS. -->
+    <div class="hero-main">
+
+        <!-- HERO-LEFT: O Argumento de Carreira. Onde dizes ao mundo quem és. -->
+        <div class="hero-left">
+            <!-- H1: O Título de Autoridade. A frase que define o teu estado atual. -->
+            <h1 class="hero-title">De Junior para Engenheiro</h1>
+            
+            <!-- P: O Subtexto de Baixo Contraste. Dá os detalhes sem cansar a vista. -->
+            <p class="hero-subtitle">
+                Do hardware crítico às soluções de elite. Estou a documentar a minha jornada 
+                pelo The Odin Project e Helsinki University.
+            </p>
+
+            <!-- BUTTON: O Gatilho de Ação. Onde o visitante interage com o teu plano. -->
+            <button class="hero-btn">Ver Roadmap</button>
         </div>
 
-        <!-- Conteúdo Principal do Hero (O que vamos fazer a seguir) -->
-        <div class="hero-main">
-            <div class="hero-text">
-                <h1>Arquitetando no Bunker</h1>
-                <p>Construindo software de elite em ambientes de escassez. Mastery Learning e resiliência pura.</p>
-                <button>Conheça a Jornada</button>
-            </div>
-            <div class="hero-image">
-                <!-- Placeholder para a imagem do teu setup ou uma foto tua -->
-                <img src="https://via.placeholder.com/400x250" alt="Imagem do Bunker">
+        <!-- HERO-RIGHT: A Prova Visual. Onde mostras o teu ambiente ou simbolismo. -->
+        <div class="hero-right">
+            <!-- Placeholder para a imagem: Representa o teu Bunker Linux ou o teu progresso. -->
+            <div class="hero-img-placeholder">
+                [ Placeholder: Uma imagem ]
             </div>
         </div>
 
-    </div>
+    </div> <!-- Fim do hero-main -->
 
-    <!-- Próximas seções: Info, Quote, CTA -->
+    </header> <!-- Fim do Bloco 1 -->
+
+    <!-- PRÓXIMO PASSO: info-section (4 Cards) -->
+    <main class="info-section">
+        <!-- O teu trabalho começa aqui -->
+    </main>
+
 </body>
 </html>
