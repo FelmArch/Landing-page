@@ -124,6 +124,10 @@ header, footer {
 .card {
     width: 200px;
     text-align: center;
+    /* para que os textos fiquem centalizados */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .img-card {
