@@ -14,3 +14,8 @@ body {
     flex-direction: column;
 }
 
+/* 3. LINKS (Limpeza de fiação) */
+a {
+    text-decoration: none;
+    color: inherit;
+}
