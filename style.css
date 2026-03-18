@@ -35,3 +35,11 @@ header, footer {
     align-items: center;
     padding: 16px 80px;
 }
+
+/* aqui e sobre o menu da navbar */
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
