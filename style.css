@@ -90,3 +90,12 @@ header, footer {
     border-radius: 8px;
     padding: 8px 32px;
 }
+
+/* aqui e a parte da imag do hero */
+
+.img-placeholder {
+    width: 400px;
+    height: 250px;
+    background: #cee0bb;
+    border: #3882f6 solid;
+}
