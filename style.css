@@ -1,6 +1,6 @@
-/* 1 vamos resetar antes de tudo */
+/* 1vamos resetar antes de tudo */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,14 +8,19 @@
 
 /* 2. CONFIGURAÇÃO DO CORPO */
 body {
-    font-family: sans-serif; /* Simples e limpo */
+    font-family: Roboto, sans-serif; /* Simples e limpo */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    color: white;
 }
 
 /* 3. LINKS (Limpeza de fiação) */
 a {
     text-decoration: none;
     color: inherit;
+}
+
+header, footer {
+    background-color: #1f2937;
 }
