@@ -65,3 +65,18 @@ header, footer {
     padding-top: 100px;
     padding-bottom: 80px;
 }
+
+/* aqui e o titulo */
+
+.hero-title {
+    color: #f9faf8;
+    font-size: 48px;
+    width: 900;
+}
+
+/* aqui o subtitulo */
+
+.hero-subtitle {
+    font-size: 18px;
+    color: #e5e7eb;
+}
