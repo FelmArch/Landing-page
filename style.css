@@ -72,13 +72,16 @@ header, footer {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 16px;
 }
+
 
 /* aqui o subtitulo */
 
 .hero-subtitle {
     font-size: 18px;
     color: #e5e7eb;
+    margin-bottom: 16px;
 }
 
 /* aqui o btn */
@@ -128,6 +131,7 @@ header, footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 8px;
 }
 
 .img-card {
