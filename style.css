@@ -231,3 +231,25 @@ header, footer {
     align-items: center;
     padding: 32px;
 }
+
+/* aqui e sobre as imag */
+
+.img-placeholder img {
+    /* A imagem ocupa toda a largura da moldura */
+    width: 100%;       
+    /* A imagem ocupa toda a altura da moldura */
+    height: 100%;      
+    /* para não distorcer */
+    object-fit: cover; 
+
+    /* Segue o arredondado da div */
+    border-radius: inherit; 
+}
+
+.img-card img {
+    width: 100%;      
+    height: 100%;      
+    object-fit: cover; 
+    border-radius: inherit; 
+
+}
