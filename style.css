@@ -251,5 +251,16 @@ header, footer {
     height: 100%;      
     object-fit: cover; 
     border-radius: inherit; 
+}
 
+/* aplicar umas animations */
+.card {
+    /* Faz o movimento ser suave */
+    transition: transform 0.3s ease; 
+}
+
+.card:hover {
+    /* O card sobe ligeiramente quando passas o rato */
+    transform: translateY(-10px);
+    cursor: default;
 }
