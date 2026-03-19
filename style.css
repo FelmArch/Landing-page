@@ -72,16 +72,20 @@ header, footer {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
 }
 
+/* aplicar agupamento */
 
+.hero-title, .hero-subtitle {
+    margin-bottom: 16px;
+}
 /* aqui o subtitulo */
 
 .hero-subtitle {
     font-size: 18px;
     color: #e5e7eb;
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
 }
 
 /* aqui o btn */
@@ -187,6 +191,27 @@ header, footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* vamos dar as propriedades aos links de ancora */
+
+.hero-btn, .cta-btn {
+     /* Essencial para o padding e as margens funcionarem */
+    display: inline-block;
+    /* Garante que não apareça o sublinhado de link */
+    text-decoration: none; 
+    /* Centraliza o texto dentro do 'botão' */
+    text-align: center;    
+    /* Mantém a 'mãozinha' ao passar o rato */
+    cursor: pointer;       
+}
+
+/*  Efeito Hover */
+.hero-btn:hover, .cta-btn:hover {
+    /* O botão brilha ligeiramente quando passas o rato */
+    filter: brightness(1.2); 
+    /* Faz a mudança de brilho ser suave */
+    transition: 0.3s;        
 }
 
 .cta-btn {
