@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
 /* 1vamos resetar antes de tudo */
 
 * {
@@ -8,7 +10,8 @@
 
 /* 2. CONFIGURAÇÃO DO CORPO */
 body {
-    font-family: Roboto, sans-serif; /* Simples e limpo */
+    /* Simples e limpo */
+    font-family: 'Roboto', sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
