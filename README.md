@@ -2,7 +2,9 @@
 Projeto de Landing Page - The Odin Project. Desenvolvido por Felmar.
 # 🏗️ FelmArch Portfolio: Honrando o Passado, Arquitetando o Futuro
 
-Este projeto é o marco final do módulo de **Fundamentos do The Odin Project**. Mais do que uma landing page, este site é o manifesto da minha jornada de transição para a Engenharia de Software, construído em ambiente de missão crítica no Norte de Moçambique.
+Este projeto é o marco final do módulo de **(HTML/CSS/Flexbox) do The Odin Project**. Mais do que uma landing page, este site é o manifesto da minha jornada de transição para a Engenharia de Software, construído em ambiente de missão crítica no Norte de Moçambique.
+<br>
+*Levei tanto tempo, mais de uma semana, pois tive diversas dificuldades, o meu HDD ja nao inicializa-va mais o sistema OS, experimentei o linux mint, mas bastava atualizar que o Hdd dava erros, gracas a Deus consegui o atual SSD e estou de volta*
 
 ## 📜 A História
 Em agosto de 2023, perdi os meus pilares, Luciano e Maria, num intervalo de sete dias. Este portfólio documenta a transformação dessa dor em resiliência técnica. O nome **FelmArch** carrega o legado de Felmar e a visão de um Arquiteto de Sistemas.
